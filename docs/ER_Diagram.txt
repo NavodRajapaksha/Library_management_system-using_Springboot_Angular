@@ -1,0 +1,53 @@
++------------------+
+|      USERS       |
++------------------+
+| id (PK)          |
+| email            |
+| password         |
+| role             |
+| is_blacklisted   |
+| created_at       |
+| updated_at       |
++------------------+
+         |
+         | 1
+         |
+         | *
++----------------------+
+|    RESERVATIONS      |
++----------------------+
+| id (PK)              |
+| user_id (FK)         |
+| book_id (FK)         |
+| reservation_date     |
+| due_date             |
+| status               |
++----------------------+
+         *
+         |
+         | 1
++----------------------+
+|       BOOKS          |
++----------------------+
+| id (PK)              |
+| title                |
+| author               |
+| isbn                 |
+| genre                |
+| language             |
+| image_url            |
+| status               |
+| category_id (FK)     |
+| created_at           |
+| updated_at           |
++----------------------+
+         *
+         |
+         | 1
++----------------------+
+|     CATEGORIES       |
++----------------------+
+| id (PK)              |
+| name                 |
+| description          |
++----------------------+
