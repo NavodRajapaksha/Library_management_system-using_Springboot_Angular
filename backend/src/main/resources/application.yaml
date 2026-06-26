@@ -4,7 +4,7 @@ spring:
 
   # Database config
   datasource:
-    url: jdbc:mysql://localhost:3306/LibMS?createDatabaseIfNotExist = true
+    url: jdbc:mysql://localhost:3306/LibMS#?createDatabaseIfNotExist = true
     username: root
     password: root
   jpa:
