@@ -1,4 +1,4 @@
-package com.navod.LibMS.enums;
+package com.navod.LibMS.entity.enums;
 
 public enum ReservationStatus {
     ACTIVE,
