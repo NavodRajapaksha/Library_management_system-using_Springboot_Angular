@@ -1,6 +1,6 @@
 package com.navod.LibMS.entity;
 
-import com.navod.LibMS.enums.BookStatus;
+import com.navod.LibMS.entity.enums.BookStatus;
 import jakarta.persistence.*;
 import lombok.*;
 
